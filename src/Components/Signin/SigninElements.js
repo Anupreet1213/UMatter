@@ -61,7 +61,7 @@ export const Form = styled.form`
  z-index: 1;
  display: grid;
  margin: 0 auto;
- padding: 80px 32px;
+ padding: 40px 32px;
  border-radius: 4px;
  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
@@ -86,19 +86,26 @@ font-size: 14px;
 
 export const FormInput = styled.input`
 margin-bottom: 40px;
-padding: 16px 16px;
+padding: 10px;
 border: none;
 border-radius: 4px;
+font-size:18px;
+border:none;
+outline:none;
 `;
 
 export const FormButton = styled.button`
  background: #01bf71;
  padding: 16px 0;
  border: none;
- border-radius: 4px;
+ border-radius: 12px;
  color: #fff;
  font-size: 20px;
  cursor: pointer;
+ &:hover {
+   opacity : 0.8;
+   transition: 0.25s ease;
+ }
 `;
 
 export const Text = styled.span`
